@@ -1,2 +1,2 @@
 # icalculate
-simple calculator
+simple calculator with basic functions
