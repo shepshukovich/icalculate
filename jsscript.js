@@ -50,7 +50,7 @@ operations.addN = function(id){
   input.value = operations.str;
   document.getElementById('result').innerHTML = input.value;
   switch (id) {
-    case '+_button':  operations.whatSign = inputById break;
+    case '+_button':  operations.whatSign = inputById; break;
     case '-_button':  operations.whatSign = document.getElementById(id).value; break;
     case '/_button':  operations.whatSign = document.getElementById(id).value; break;
     case '*_button':  operations.whatSign = document.getElementById(id).value; break;
